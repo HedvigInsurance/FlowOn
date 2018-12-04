@@ -1,6 +1,6 @@
 //
 //  UIControlTouchHandler.swift
-//  UIView+On
+//  FlowOn
 //
 //  Created by Sam Pettersson on 2018-11-30.
 //  Copyright © 2018 Hedvig AB. All rights reserved.

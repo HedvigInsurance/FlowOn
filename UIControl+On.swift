@@ -1,6 +1,6 @@
 //
-//  UIView+On.swift
-//  UIView+On
+//  UIControl+On.swift
+//  FlowOn
 //
 //  Created by Sam Pettersson on 2018-11-30.
 //  Copyright © 2018 Hedvig AB. All rights reserved.
@@ -10,7 +10,7 @@ import Flow
 import Foundation
 import UIKit
 
-extension UIView {
+extension UIControl {
     private struct AssociatedKeys {
         static var touchHandlerKey = "ControlTouchHandlerKey"
     }
