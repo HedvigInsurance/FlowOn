@@ -3,7 +3,7 @@ Flow based event handler for Swift
 
 Makes it possible to listen for events on UIControls.
 
-Example:
+## Example:
 
 ```swift
 
