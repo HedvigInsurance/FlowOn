@@ -35,8 +35,8 @@ extension UIControl {
     }
 
     /// Adds an event handler for specified event
-    public func on(event: UIControl.Event) -> (Signal<UIButton>) {
-        return Signal<UIButton> { callback in
+    public func on(event: UIControl.Event) -> (Signal<UIControl>) {
+        return Signal<UIControl> { callback in
             let completion = {
                 callback(self)
             }
